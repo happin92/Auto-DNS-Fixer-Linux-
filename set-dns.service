@@ -1,0 +1,11 @@
+[Unit]
+Description=Set Google DNS at Startup
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /usr/local/bin/set_dns.py
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
