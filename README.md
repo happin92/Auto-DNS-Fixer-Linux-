@@ -1,8 +1,6 @@
 # Auto-DNS-Fixer-Linux
 Исправление для постоянных настроек DNS в Linux: автоматически ставит 8.8.8.8 при загрузке и блокирует resolv.conf
 
-![Preview](image.png)
-
 Скрипт на Python для автоматической установки DNS 8.8.8.8 при загрузке системы. 
 Решает проблему сброса DNS сетевыми менеджерами (NetworkManager, systemd-resolved).
 
